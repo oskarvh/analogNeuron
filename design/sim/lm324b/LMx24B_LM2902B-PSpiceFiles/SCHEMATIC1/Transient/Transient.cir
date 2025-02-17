@@ -1,0 +1,22 @@
+** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232807\Documents\Modeling\2_Full_Models\LMx24B_LM2902B\LMx24B_LM2902B PSpice Reference Design\LMx24B_LM2902B-PSpiceFiles\SCHEMATIC1\Transient.sim ] 
+
+** Creating circuit file "Transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Users/a0232807/Documents/Modeling/2_Full_Models/LMx24B_LM2902B/netlist/lmx24b_lm2902b.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+.lib "nom_pspti.lib" 
+
+*Analysis directives: 
+.TRAN  0 3m 0 .01m 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

@@ -1,0 +1,262 @@
+
+**** 11/02/23 11:40:46 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232807\Documents\Modeling\2_Full_Models\LMx24B_LM2902B\LMx24B_LM2902B PSpice Refere
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Users/a0232807/Documents/Modeling/2_Full_Models/LMx24B_LM2902B/netlist/lmx24b_lm2902b.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+.lib "nom_pspti.lib" 
+
+*Analysis directives: 
+.TRAN  0 3m 0 .01m 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LMX24B_LM2902B
+X_U1         N00333 N00435 VCC VEE N00333 LMX24B_LM2902B
+V_V1         VCC 0 18
+V_V2         0 VEE 18
+V_V3         N00435 0  
++SIN 0 10 1k 0 0 0
+
+**** RESUMING Transient.cir ****
+.END
+
+**** 11/02/23 11:40:46 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232807\Documents\Modeling\2_Full_Models\LMx24B_LM2902B\LMx24B_LM2902B PSpice Refere
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_U1.DVN   X_U1.X_U2.DVNF  X_U1.X_U3.DVNF  
+          IS  100.000000E-18  100.000000E-18  100.000000E-18 
+          KF   10.000000E-12  316.227800E-15  316.227800E-15 
+
+
+**** 11/02/23 11:40:46 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232807\Documents\Modeling\2_Full_Models\LMx24B_LM2902B\LMx24B_LM2902B PSpice Refere
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 11/02/23 11:40:46 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232807\Documents\Modeling\2_Full_Models\LMx24B_LM2902B\LMx24B_LM2902B PSpice Refere
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_S2._S2   X_U1.X_S3._S3   X_U1.X_S4._S4   X_U1.X_S5._S5   
+         RON    1.000000E-03   50              50                .01         
+        ROFF    1.000000E+12  990.000000E+09  990.000000E+09  990.000000E+09 
+         VON     .5              .5              .5              .01         
+        VOFF     .1              .4              .4             0            
+
+
+               X_U1.X_S6._S6   X_U1.X_S7._S7   X_U1.X_S8._S8   
+         RON     .01           50              50            
+        ROFF  990.000000E+09  990.000000E+09  990.000000E+09 
+         VON     .01             .5              .5          
+        VOFF    0                .4              .4          
+
+
+**** 11/02/23 11:40:46 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232807\Documents\Modeling\2_Full_Models\LMx24B_LM2902B\LMx24B_LM2902B PSpice Refere
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)   18.0000  (  VEE)  -18.0000  (N00333) 300.0E-06 (N00435)    0.0000     
+
+(X_U1.MID) 748.8E-15                  (X_U1.OLN)-10.22E-09                      
+
+(X_U1.OLP)-10.22E-09                  (X_U1.ESDN) 300.0E-06                     
+
+(X_U1.ESDP) 154.5E-12                 (X_U1.VCLP) 332.1E-06                     
+
+(X_U1.CLAMP) 332.1E-06                (X_U1.SW_OL) 748.8E-15                    
+
+(X_U1.VCC_B)   18.0000                (X_U1.VEE_B)  -18.0000                    
+
+(X_U1.VIMON)-14.95E-06                (X_U1.VOUT_S) 300.0E-06                   
+
+(X_U1.VSENSE) 332.1E-06               (X_U1.X_U1.3)    0.0000                   
+
+(X_U1.X_U1.4)    0.0000               (X_U1.X_U1.5)    0.0000                   
+
+(X_U1.X_U1.6)    0.0000               (X_U1.X_U1.7)     .8338                   
+
+(X_U1.X_U1.8)     .8338               (X_U1.X_U2.3)    0.0000                   
+
+(X_U1.X_U2.4)    0.0000               (X_U1.X_U2.5)    0.0000                   
+
+(X_U1.X_U2.6)    0.0000               (X_U1.X_U2.7)     .8338                   
+
+(X_U1.X_U2.8)     .8338               (X_U1.X_U3.3)    0.0000                   
+
+(X_U1.X_U3.4)    0.0000               (X_U1.X_U3.5)    0.0000                   
+
+(X_U1.X_U3.6)    0.0000               (X_U1.X_U3.7)     .8338                   
+
+(X_U1.X_U3.8)     .8338               (X_U1.N818493)   -2.1348                  
+
+(X_U1.N818503)-32.02E-06              (X_U1.N818511) 32.00E-06                  
+
+(X_U1.N818519)     .1600              (X_U1.N818545) 1.294E-12                  
+
+(X_U1.N818555) 751.5E-15              (X_U1.N819331) 236.0E-06                  
+
+(X_U1.N819339) 300.0E-06              (X_U1.N819347) 236.0E-06                  
+
+(X_U1.N819355) 236.0E-06              (X_U1.N819794)   16.5000                  
+
+(X_U1.N819892)  -18.0000              (X_U1.N856591) 154.5E-12                  
+
+(X_U1.N856831) 300.0E-06              (X_U1.N859098) 748.8E-15                  
+
+(X_U1.N859270)   18.0000              (X_U1.N859308)  -18.0000                  
+
+(X_U1.N879387) 191.9E-09              (X_U1.N880139) 332.1E-06                  
+
+(X_U1.N881716) 332.1E-06              (X_U1.N881748) 332.1E-06                  
+
+(X_U1.N882981) 300.0E-06              (X_U1.N886175) 300.0E-06                  
+
+(X_U1.N889526)     .0029              (X_U1.N889530) 259.3E-06                  
+
+(X_U1.N889676)     .0029              (X_U1.N889690) 300.0E-06                  
+
+(X_U1.N892351) 748.8E-15              (X_U1.N892371) 748.8E-15                  
+
+(X_U1.N893933)  -60.0000              (X_U1.N893939)   60.0000                  
+
+(X_U1.N897437) 748.8E-15              (X_U1.N897473) 748.8E-15                  
+
+(X_U1.N900095)-14.95E-06              (X_U1.N900123) 300.0E-06                  
+
+(X_U1.N912913) 748.8E-15              (X_U1.N912941) 748.8E-15                  
+
+(X_U1.N913049) 748.8E-15              (X_U1.N913075) 748.8E-15                  
+
+(X_U1.N915910)   16.6800              (X_U1.N915938)   16.6800                  
+
+(X_U1.N916088)  -17.9980              (X_U1.N916116)  -17.9980                  
+
+(X_U1.N926570)   80.0000              (X_U1.N926628) 748.8E-15                  
+
+(X_U1.N926656) 748.8E-15              (X_U1.N926696) 748.8E-15                  
+
+(X_U1.N926722) 748.8E-15              (X_U1.N926784)  -80.0000                  
+
+(X_U1.N929369) 332.1E-06              (X_U1.N939560)  -10.2000                  
+
+(X_U1.N939566)   10.2000              (X_U1.N939600)  -10.2000                  
+
+(X_U1.N939604)  -10.2000              (X_U1.N939610)   10.2000                  
+
+(X_U1.N939616)   10.2000              (X_U1.N940823)-10.22E-09                  
+
+(X_U1.N940861) 748.8E-15              (X_U1.N940881)-10.22E-09                  
+
+(X_U1.VCC_CLP)   16.6800              (X_U1.VEE_CLP)  -17.9980                  
+
+(X_U1.CL_CLAMP) 332.1E-06             (X_U1.CLAW_CLAMP) 332.1E-06           
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.750E-04
+    V_V2        -2.750E-04
+    V_V3         1.545E-08
+    X_U1.V_V_ORN   0.000E+00
+    X_U1.V_V_ORP   0.000E+00
+    X_U1.V_V1   -6.000E-11
+    X_U1.V_V2    6.000E-11
+    X_U1.V_V3   -8.000E-11
+    X_U1.V_V4    8.000E-11
+    X_U1.V_VCM_MAX  -1.650E-11
+    X_U1.V_VCM_MIN   1.800E-11
+    X_U1.V_VOS   4.017E-17
+    X_U1.X_H1.VH_H1  -1.022E-08
+    X_U1.X_H2.VH_H2   1.022E-08
+    X_U1.X_H3.VH_H3   1.495E-08
+
+    TOTAL POWER DISSIPATION   9.90E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/02/23 11:40:46 **** PSpice 17.4.0 (4 January 2023) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0232807\Documents\Modeling\2_Full_Models\LMx24B_LM2902B\LMx24B_LM2902B PSpice Refere
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .49
+

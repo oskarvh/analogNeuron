@@ -1,0 +1,8 @@
+* A dual mosfet ngspice model
+* file name: SSM6N7002CFU-dual.lib
+.subckt SSM6N7002CFU-dual S1 G1 D2 S2 G2 D1
+.include SSM6N7002CFU.lib
+* INM INP VCC VEE OUT
+XU1A D1 G1 S1 NMOS_SSM6N7002CFU
+XU1B D2 G2 S2 NMOS_SSM6N7002CFU
+.ends
