@@ -27,6 +27,15 @@
         },
         {
           "color": "rgb(166, 86, 40)",
+          "cursor1": {
+            "position": 0.022499124431274144,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
           "signal": "V(V_out_pga)",
           "trace_type": 257
         }

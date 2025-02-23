@@ -1699,13 +1699,37 @@
 		)
 	)
 	(junction
-		(at 53.34 80.01)
+		(at 77.47 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "35bebb77-31a9-4d5e-83c7-8073d7be16a6")
+		(uuid "12d54fbf-8fa9-4be9-a8fa-8e51b019e7d3")
 	)
 	(junction
-		(at 40.64 91.44)
+		(at 77.47 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b22f30e-0851-40eb-a617-1362b6949bd6")
+	)
+	(junction
+		(at 40.64 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "424bb989-6ea3-41d3-b22e-dfc6f109cf6e")
+	)
+	(junction
+		(at 53.34 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "574fa8c7-6755-40fa-90fd-0bbe660915f9")
+	)
+	(junction
+		(at 64.77 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c68dccd-8d4a-486c-b6b3-53f3f46207ff")
+	)
+	(junction
+		(at 16.51 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6041a6aa-e382-4b33-a818-fb91900e932e")
@@ -1717,20 +1741,48 @@
 		(uuid "6309be69-edf4-4a3d-976a-b6c6a44ced96")
 	)
 	(junction
+		(at 88.9 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72f0dfd3-44b0-4eb9-9436-4c29d1343259")
+	)
+	(junction
 		(at 62.23 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99d512e0-1ddb-4c6f-921f-6dd5ce19b3da")
 	)
 	(junction
-		(at 53.34 96.52)
+		(at 53.34 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2a19c91-ef00-479c-9ee3-48858cb3a6f9")
+	)
+	(junction
+		(at 29.21 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc673636-85c8-4916-9bf0-18405ef02d30")
 	)
+	(junction
+		(at 101.6 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff4d4ada-a59e-4751-96ae-d172dc235fdb")
+	)
 	(wire
 		(pts
 			(xy 53.34 80.01) (xy 62.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b3aa2e-cadb-4c26-8810-b9682a57c9d7")
+	)
+	(wire
+		(pts
+			(xy 29.21 80.01) (xy 53.34 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1750,7 +1802,37 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 96.52) (xy 40.64 96.52)
+			(xy 77.47 78.74) (xy 77.47 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1984da83-b1d1-44be-afc6-5b634179edd0")
+	)
+	(wire
+		(pts
+			(xy 29.21 80.01) (xy 29.21 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f909626-4283-4d0f-9223-f7051608119b")
+	)
+	(wire
+		(pts
+			(xy 88.9 100.33) (xy 88.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37414dc7-f39f-48cd-b072-a4dd6af50caf")
+	)
+	(wire
+		(pts
+			(xy 21.59 100.33) (xy 16.51 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1760,7 +1842,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 90.17) (xy 40.64 91.44)
+			(xy 16.51 93.98) (xy 16.51 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1770,13 +1852,53 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 80.01) (xy 72.39 80.01)
+			(xy 69.85 100.33) (xy 64.77 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62f9285a-b254-4ccc-a279-ec7cb1d979f8")
+		(uuid "4745e27c-41ca-454c-8d50-3c0dc299ce28")
+	)
+	(wire
+		(pts
+			(xy 77.47 80.01) (xy 101.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b78d9d-b7ce-4115-aa5f-f04fadb16d56")
+	)
+	(wire
+		(pts
+			(xy 88.9 93.98) (xy 88.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52798f27-38f9-47a2-89dd-77dd3a3070cc")
+	)
+	(wire
+		(pts
+			(xy 53.34 80.01) (xy 53.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5543a7e2-9ebb-4c33-9ad1-748f1d8cfe80")
+	)
+	(wire
+		(pts
+			(xy 93.98 100.33) (xy 88.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7553fc-be92-46e4-b7b6-8e08bcac0ece")
 	)
 	(wire
 		(pts
@@ -1790,7 +1912,37 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 96.52) (xy 40.64 91.44)
+			(xy 40.64 93.98) (xy 40.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4b57bc-1f6f-49a7-b5dd-9166277832e6")
+	)
+	(wire
+		(pts
+			(xy 62.23 80.01) (xy 77.47 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd3d16f-8210-4e60-befa-712c5af24a43")
+	)
+	(wire
+		(pts
+			(xy 77.47 80.01) (xy 77.47 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a87e4eb-3ad4-4e00-86cd-c8b7e64a43ab")
+	)
+	(wire
+		(pts
+			(xy 16.51 100.33) (xy 16.51 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1800,13 +1952,63 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 72.39) (xy 77.47 80.01)
+			(xy 77.47 72.39) (xy 77.47 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad30ff3d-508f-402a-8a65-337166d8bb09")
+	)
+	(wire
+		(pts
+			(xy 45.72 100.33) (xy 40.64 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b421b3c0-45da-4e5c-8bcb-c0acea1c837f")
+	)
+	(wire
+		(pts
+			(xy 64.77 93.98) (xy 64.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4305cab-e6ee-49fe-852e-2687879e6973")
+	)
+	(wire
+		(pts
+			(xy 64.77 100.33) (xy 64.77 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee7228b-6dec-4fb5-b2bf-f1e1152684ca")
+	)
+	(wire
+		(pts
+			(xy 101.6 80.01) (xy 101.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12245e4-f963-464a-b459-ebf395eabd5a")
+	)
+	(wire
+		(pts
+			(xy 50.8 100.33) (xy 53.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caaa53d6-be11-4478-bf12-5bdbb1d8afe2")
 	)
 	(wire
 		(pts
@@ -1820,33 +2022,43 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 80.01) (xy 53.34 80.01)
+			(xy 74.93 100.33) (xy 77.47 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4eb2314-6509-4c0c-87ad-700d9b7d59f5")
+		(uuid "d46eb745-b74a-4316-9b6b-a0711c7deca1")
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 53.34 80.01)
+			(xy 40.64 100.33) (xy 40.64 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e481b3a2-f365-43ec-bc2b-ac42ca564f7d")
+		(uuid "e157aa35-e599-4c5e-a877-e398ec88d5b9")
 	)
 	(wire
 		(pts
-			(xy 50.8 96.52) (xy 53.34 96.52)
+			(xy 26.67 100.33) (xy 29.21 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ec265029-5c33-4446-84c4-3933e3733c2c")
+	)
+	(wire
+		(pts
+			(xy 99.06 100.33) (xy 101.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbeceb5b-6ac7-41a6-92ff-7a1c58e0a50d")
 	)
 	(wire
 		(pts
@@ -1857,6 +2069,38 @@
 			(type default)
 		)
 		(uuid "ff84b0c0-ef5f-4e16-8b54-f982989af864")
+	)
+	(text "Simulated amplifiations:\n100k = 1.1x\n10k = 2x\n3k3 = 4x\n1k4 = 8x\n"
+		(exclude_from_sim no)
+		(at 33.528 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33f5d768-2216-49b8-b4c0-164d969df6d1")
+	)
+	(global_label "pga_ctrl2"
+		(shape input)
+		(at 64.77 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "158f225c-f6ce-418d-b65d-2c78c8c6c89e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 82.105 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "V_gain1"
 		(shape input)
@@ -1880,6 +2124,28 @@
 			)
 		)
 	)
+	(global_label "pga_ctrl1"
+		(shape input)
+		(at 40.64 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a5f01ca-724c-46ee-bdd2-41cfe522a72d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 82.105 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V_in"
 		(shape input)
 		(at 62.23 69.85 180)
@@ -1898,6 +2164,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pga_ctrl0"
+		(shape input)
+		(at 16.51 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97362115-f23f-483a-8a88-01aa817c8ca8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.51 82.105 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1937,6 +2225,28 @@
 		(uuid "e4ea487c-2b55-48f8-b7fd-4df1967058e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.9497 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "pga_ctrl3"
+		(shape input)
+		(at 88.9 93.98 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1a9a061-d9f1-4442-b5b5-8a05e7068152")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 82.105 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2227,15 +2537,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 53.34 83.82 0)
+		(at 77.47 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "42863f92-a8f8-438e-bb80-4c7de533bb45")
-		(property "Reference" "R3"
-			(at 55.118 83.82 90)
+		(uuid "03da2fa5-fa1d-4298-8b38-61432e557890")
+		(property "Reference" "R9"
+			(at 79.248 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +2553,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 51.308 83.82 90)
+			(at 75.438 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2561,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 53.34 83.82 0)
+			(at 77.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2570,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 83.82 0)
+			(at 77.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +2579,340 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 53.34 83.82 0)
+			(at 77.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ad64650-3e85-418f-b090-b39c0dfc872d")
+		)
+		(pin "2"
+			(uuid "a1f585d1-43e7-47d1-b347-20f324bc65bf")
+		)
+		(instances
+			(project "programmableAmplifier"
+				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 67.31 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1911913d-565c-4552-b068-b3f7e356fa0a")
+		(property "Reference" "R7"
+			(at 67.31 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 67.31 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 67.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 67.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50fc0823-dcde-4413-9a91-0560aefea10c")
+		)
+		(pin "2"
+			(uuid "bd554810-c63f-4322-8502-52cc04b18b24")
+		)
+		(instances
+			(project "programmableAmplifier"
+				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 43.18 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27e3e63d-0582-4aa0-8f29-53232728449e")
+		(property "Reference" "R4"
+			(at 43.18 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 43.18 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4110763-f649-450a-9425-f5701e57b595")
+		)
+		(pin "2"
+			(uuid "9fc08701-f66c-4242-9ee7-b3fdb7acd7ff")
+		)
+		(instances
+			(project "programmableAmplifier"
+				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a4b27bb-58f7-4c91-aa42-4a3202bb1e74")
+		(property "Reference" "R11"
+			(at 96.52 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 96.52 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77b8a325-e0c7-4133-a6bd-451271f13142")
+		)
+		(pin "2"
+			(uuid "ae93a6b9-79f9-44e0-851c-a0fa9c9c80f3")
+		)
+		(instances
+			(project "programmableAmplifier"
+				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ed5dc08-0232-44d7-a297-56f12f9b8898")
+		(property "Reference" "#PWR01"
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee39146a-5825-41bc-a042-bcef3bbb1037")
+		)
+		(instances
+			(project "programmableAmplifier"
+				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 29.21 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42863f92-a8f8-438e-bb80-4c7de533bb45")
+		(property "Reference" "R3"
+			(at 30.988 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.4k"
+			(at 27.178 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 29.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 29.21 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,6 +3001,117 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 50.8 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49a1d502-0544-4d02-b1ce-798bb7ce5f90")
+		(property "Reference" "Q1"
+			(at 49.53 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 55.88 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 55.88 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/home/oskar/git/analogNeuron/design/sim/2n3904/2n3904_spice.lib"
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N3904"
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dc771166-1e97-4c4f-a247-615254758dec")
+		)
+		(pin "1"
+			(uuid "9a299ccf-4699-4bdd-8346-05d4111897ee")
+		)
+		(pin "2"
+			(uuid "6c54a1ec-74be-4427-8a31-02319e74e72f")
+		)
+		(instances
+			(project "programmableAmplifier"
+				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 207.01 148.59 0)
 		(unit 1)
@@ -2423,16 +3177,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 40.64 90.17 0)
+		(lib_id "power:GND")
+		(at 77.47 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "51451ace-0a67-43af-9eb7-47c41568d4a2")
-		(property "Reference" "#PWR01"
-			(at 40.64 93.98 0)
+		(uuid "4e755658-983f-43fb-91fc-be385b3a2cd7")
+		(property "Reference" "#PWR03"
+			(at 77.47 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,8 +3194,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 40.64 86.614 0)
+		(property "Value" "GND"
+			(at 77.47 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +3203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 90.17 0)
+			(at 77.47 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +3212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 90.17 0)
+			(at 77.47 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,8 +3220,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 40.64 90.17 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,12 +3230,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "c643e779-8f98-42eb-8ad4-69897dbb5b16")
+			(uuid "0bc77338-7bf0-4920-849b-54fe577b435f")
 		)
 		(instances
 			(project "programmableAmplifier"
 				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
-					(reference "#PWR01")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 48.26 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5071efb3-7186-4072-bf31-865a2105d9e0")
+		(property "Reference" "R5"
+			(at 48.26 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 48.26 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 48.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 48.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b48735b-ee94-4afc-bb82-aceac9a737d1")
+		)
+		(pin "2"
+			(uuid "de72854b-6061-4e3f-8efe-4fc670d02860")
+		)
+		(instances
+			(project "programmableAmplifier"
+				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2547,6 +3368,138 @@
 			(project "weight"
 				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e26dd64-b3fc-42c6-97de-35b5fb391b92")
+		(property "Reference" "#PWR04"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efcf0249-3488-43d3-9dda-6da731f50d6f")
+		)
+		(instances
+			(project "programmableAmplifier"
+				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 101.6 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "728f5ced-ae97-464b-babd-89ec2965c27f")
+		(property "Reference" "R12"
+			(at 103.378 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 99.568 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "692c79af-407f-41ce-a951-3e6fef61c243")
+		)
+		(pin "2"
+			(uuid "9794c562-ec4e-4222-b451-9add70b641a4")
+		)
+		(instances
+			(project "programmableAmplifier"
+				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2651,6 +3604,117 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 99.06 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e5b62cb-489c-4655-a333-c65da0ab084a")
+		(property "Reference" "Q4"
+			(at 97.79 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 104.14 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 104.14 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/home/oskar/git/analogNeuron/design/sim/2n3904/2n3904_spice.lib"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N3904"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "669fe19b-7dfd-4114-bdf7-4742827da3c1")
+		)
+		(pin "1"
+			(uuid "9f766f7a-805f-4e51-9cd7-cc1962fc9f84")
+		)
+		(pin "2"
+			(uuid "9d07aad2-1dee-4b83-91ce-bb44b13b7596")
+		)
+		(instances
+			(project "programmableAmplifier"
+				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+15V")
 		(at 207.01 138.43 0)
 		(unit 1)
@@ -2717,7 +3781,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 96.52 0)
+		(at 29.21 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2725,7 +3789,7 @@
 		(dnp no)
 		(uuid "8c00d9ef-abe6-4dbb-9e2e-4b60f56f0251")
 		(property "Reference" "#PWR02"
-			(at 53.34 102.87 0)
+			(at 29.21 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,7 +3798,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 100.076 0)
+			(at 29.21 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +3806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 96.52 0)
+			(at 29.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +3815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 96.52 0)
+			(at 29.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +3824,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 96.52 0)
+			(at 29.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,6 +4288,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 91.44 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cedcd4a-9f41-4c1f-817d-d4fcbe688cdb")
+		(property "Reference" "R10"
+			(at 91.44 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 91.44 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cd89cba-f4e1-4b4a-987c-ce927eb6e90a")
+		)
+		(pin "2"
+			(uuid "09738d90-ddc1-4552-8289-a99151b4a26f")
+		)
+		(instances
+			(project "programmableAmplifier"
+				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+15V")
 		(at 196.85 138.43 0)
 		(unit 1)
@@ -3290,7 +4421,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 50.8 91.44 0)
+		(at 26.67 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3298,7 +4429,7 @@
 		(dnp no)
 		(uuid "9ece9b8e-b224-4da8-bbc4-331bc78e1e20")
 		(property "Reference" "Q2"
-			(at 49.53 90.1699 0)
+			(at 25.4 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +4438,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 55.88 92.7099 0)
+			(at 31.75 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +4447,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 55.88 93.345 0)
+			(at 31.75 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +4458,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 50.8 91.44 0)
+			(at 26.67 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +4468,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 50.8 91.44 0)
+			(at 26.67 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +4477,7 @@
 			)
 		)
 		(property "Sim.Library" "/home/oskar/git/analogNeuron/design/sim/2n3904/2n3904_spice.lib"
-			(at 50.8 91.44 0)
+			(at 26.67 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +4486,7 @@
 			)
 		)
 		(property "Sim.Name" "2N3904"
-			(at 50.8 91.44 0)
+			(at 26.67 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +4495,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 50.8 91.44 0)
+			(at 26.67 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +4504,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=E 2=B 3=C"
-			(at 50.8 91.44 0)
+			(at 26.67 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,6 +4525,73 @@
 			(project "programmableAmplifier"
 				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.39 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab7cfac7-cf23-4b9e-a1f3-2ebe37224925")
+		(property "Reference" "R8"
+			(at 72.39 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 72.39 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed47b627-dabb-442f-aa82-359a7667eea4")
+		)
+		(pin "2"
+			(uuid "ba9f596c-629b-4c2c-9e7c-498ce1533ca1")
+		)
+		(instances
+			(project "programmableAmplifier"
+				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3491,6 +4689,117 @@
 			(project "weight"
 				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
 					(reference "V2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 74.93 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0a60c96-3163-4c45-b794-fa3df04c975e")
+		(property "Reference" "Q3"
+			(at 73.66 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 80.01 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 80.01 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "/home/oskar/git/analogNeuron/design/sim/2n3904/2n3904_spice.lib"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N3904"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 74.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a194a6d5-5768-459e-9b1f-b9adaba00e4c")
+		)
+		(pin "1"
+			(uuid "77a28bd1-1303-4e05-a878-ec7b51407408")
+		)
+		(pin "2"
+			(uuid "52659280-fd67-4455-b9e5-095b00fc20b4")
+		)
+		(instances
+			(project "programmableAmplifier"
+				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -3942,23 +5251,23 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 74.93 80.01 270)
+		(at 53.34 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dc8dbcb6-f8ee-4f7c-989b-1b9f23699e29")
-		(property "Reference" "R19"
-			(at 74.93 81.788 90)
+		(uuid "d9621224-61de-4f6b-88f6-d4d092cd4620")
+		(property "Reference" "R6"
+			(at 55.118 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 74.93 77.978 90)
+		(property "Value" "3.3k"
+			(at 51.308 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,7 +5275,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 74.93 80.01 0)
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +5284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 80.01 0)
+			(at 53.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +5293,74 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 74.93 80.01 0)
+			(at 53.34 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61682239-6ce4-4ef2-99c5-eade98e8ca35")
+		)
+		(pin "2"
+			(uuid "a321935a-e4e5-45bd-a642-6b2e642933ac")
+		)
+		(instances
+			(project "programmableAmplifier"
+				(path "/dbadcbf6-9066-49db-805b-b552685aab40"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 77.47 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc8dbcb6-f8ee-4f7c-989b-1b9f23699e29")
+		(property "Reference" "R19"
+			(at 79.248 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 75.438 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 77.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 77.47 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,7 +5512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "dc=0 ampl=1.65 f=0.1k td=0 theta=0 phase=0 ac=1"
+		(property "Sim.Params" "dc=0 ampl=1 f=0.1k td=0 theta=0 phase=0 ac=1"
 			(at 208.28 112.9001 0)
 			(effects
 				(font
@@ -4181,7 +5557,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 43.18 91.44 90)
+		(at 19.05 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4189,7 +5565,7 @@
 		(dnp no)
 		(uuid "eb527181-c891-4e69-b83a-501d81518d7c")
 		(property "Reference" "R1"
-			(at 43.18 89.662 90)
+			(at 19.05 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +5573,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 43.18 93.472 90)
+			(at 19.05 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,7 +5581,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 43.18 91.44 0)
+			(at 19.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +5590,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 91.44 0)
+			(at 19.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +5599,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 43.18 91.44 0)
+			(at 19.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +5754,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 48.26 96.52 90)
+		(at 24.13 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4386,7 +5762,7 @@
 		(dnp no)
 		(uuid "fc1a13fb-6f03-48b7-92f0-1c6c1b090692")
 		(property "Reference" "R2"
-			(at 48.26 94.742 90)
+			(at 24.13 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +5770,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 48.26 98.552 90)
+			(at 24.13 102.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +5778,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 48.26 96.52 0)
+			(at 24.13 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,7 +5787,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 96.52 0)
+			(at 24.13 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,7 +5796,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 48.26 96.52 0)
+			(at 24.13 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
